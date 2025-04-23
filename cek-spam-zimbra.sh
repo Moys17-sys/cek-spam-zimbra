@@ -6,7 +6,7 @@ LOG_MAILQUEUE="/var/log/zimbra.log"
 QUEUE_CHECK=$(postqueue -p | wc -l)
 THRESHOLD_QUEUE=10
 SMTP_LOG="/var/log/mail.log"
-ALERT_EMAIL="helpdesk@tracon.co.id sysadmin@tracon.co.id"
+ALERT_EMAIL="email@mail.com"
 
 echo "===== [$(date)] Cek Potensi SPAM di Server Zimbra ====="
 
